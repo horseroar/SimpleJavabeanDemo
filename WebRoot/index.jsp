@@ -21,7 +21,14 @@
 		<br>
 		<br>
 		<a href="${pageContext.request.contextPath }/add.jsp">增加用户信息</a>
-		<br><br>
-		<a href="<%=basePath%>list.jsp">查看管理用户列表</a>
+		<br>
+		<br>
+		<a href="${pageContext.request.contextPath }/list.jsp">查看管理用户列表</a>
+		<br>
+		<br>
+		<a href="${pageContext.request.contextPath }/servlet/EmployeeServlet?action=preAdd">增加员工信息</a>
+		<br>
+		<br>
+		<a href="${pageContext.request.contextPath }/servlet/EmployeeServlet?action=list&page=1">查看员工信息列表</a>
 	</body>
 </html>

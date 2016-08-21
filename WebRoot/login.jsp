@@ -59,6 +59,7 @@
 	%>
 
 	<body>
+	用户登录<br><br><br>
 		<form id="loginForm" name="loginForm" method="post" action="?action=login"
 			onsubmit="return checkForm()">
 			<table width="456" border="0">
@@ -77,7 +78,7 @@
 					</td>
 					<td>
 						<label for="password"></label>
-						<input type="text" name="password" id="password" />
+						<input type="password" name="password" id="password" />
 					</td>
 				</tr>
 				<tr>

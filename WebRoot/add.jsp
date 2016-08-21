@@ -57,7 +57,7 @@
 	<body>
 		<form id="loginForm" name="loginForm" method="post" action="?action=insert"
 			onsubmit="return checkForm()">
-			新增用户信息
+			新增用户信息  <a href="${pageContext.request.contextPath }/index.jsp">返回首页</a><br><br><br>
 			<table width="456" border="0">
 				<tr>
 					<td width="121">
